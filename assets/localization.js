@@ -96,11 +96,34 @@ Proovit is provided "as is" and does not guarantee that the service will be unin
 <strong>7. Modifications</strong><br>
 We reserve the right to update these Terms at any time. We will notify you if significant changes are made.`,
     },
+    childsafety: {
+      title: "Child Safety Policy",
+      content: `Effective Date: April 17, 2025<br><br>
+Proovit is committed to providing a safe environment for all users, especially protecting minors from any form of child sexual exploitation and abuse (CSEA). Below are our child safety policies:<br><br>
+
+<strong>1. Child Safety Standards</strong><br>
+At Proovit, we strictly condemn all forms of child sexual exploitation and abuse. Uploading, sharing, or promoting content involving such material is strictly prohibited.<br><br>
+
+<strong>2. Contact Channel for Reports and Feedback</strong><br>
+If you encounter content or suspicious activity related to child safety, you can contact us directly at <a href="mailto:proovit.dev@gmail.com">proovit.dev@gmail.com</a>. In the app, go to <strong>Settings &gt; Contact Support</strong> and provide the <em>group name</em> and the <em>user name</em> involved. Our support team is ready to act promptly and diligently.<br><br>
+
+<strong>3. Intervention on Child Sexual Abuse Content</strong><br>
+We take immediate action upon receiving any report related to CSEA, including removing the content, suspending or deleting the accounts involved, and notifying the relevant authorities.<br><br>
+
+<strong>4. Legal Compliance</strong><br>
+Proovit complies with current legislation in Spain and the European Union, including the General Data Protection Regulation (GDPR) and the Organic Law on Comprehensive Protection of Children and Adolescents Against Violence (LOPIVI). If illegal material is detected, we will report it to the appropriate authorities such as the Spanish Data Protection Agency (AEPD) or law enforcement bodies.<br><br>
+
+<strong>5. Designated Contact Person</strong><br>
+Our compliance team includes staff trained to handle child safety incidents. For any concerns, contact us at <a href="mailto:proovit.dev@gmail.com">proovit.dev@gmail.com</a>.<br><br>
+
+<strong>6. Policy Updates</strong><br>
+These policies are reviewed regularly to ensure their effectiveness. Proovit is committed to adapting to new threats and continuously improving its child protection practices.`,
+    },
     delete: {
       title: "How to Delete Your Account",
       steps: [
         "Open the Proovit app on your device.",
-        "Go to <strong>Settings</strong> &gt; <strong>Account</strong>.",
+        "Go to <strong>Settings</strong> in the top right corner.",
         "Tap <strong>Delete Account</strong> and follow the instructions.",
       ],
       help: `If you have trouble or prefer, you can email us at <a href="mailto:proovit.dev@gmail.com">proovit.dev@gmail.com</a> and request account deletion.`,
@@ -109,6 +132,7 @@ We reserve the right to update these Terms at any time. We will notify you if si
     footerLinks: {
       privacy: "Privacy Policy",
       terms: "Terms of Service",
+      childsafety: "Child Safety Policy"
     },
   },
   es: {
@@ -208,19 +232,43 @@ Proovit se ofrece "tal cual" y no garantiza que el servicio sea ininterrumpido o
 <strong>7. Modificaciones</strong><br>
 Nos reservamos el derecho de actualizar estos Términos en cualquier momento. Te notificaremos si hay cambios significativos.`,
     },
+    childsafety: {
+      title: "Política de Seguridad Infantil",
+      content: `Fecha de entrada en vigor: 17 de abril de 2025<br><br>
+Proovit se compromete a proporcionar un entorno seguro para todos los usuarios, especialmente en la protección de menores contra cualquier forma de explotación o abuso sexual infantil (EASI). A continuación, se detallan nuestras políticas de seguridad infantil:<br><br>
+
+<strong>1. Estándares de Seguridad Infantil</strong><br>
+En Proovit condenamos cualquier forma de explotación y abuso sexual infantil. Está estrictamente prohibido subir, compartir o promover contenido que implique este tipo de material.<br><br>
+
+<strong>2. Canal de Contacto para Comentarios y Denuncias</strong><br>
+Si observas contenido o actividad sospechosa relacionada con la seguridad infantil, puedes escribirnos directamente a <a href="mailto:proovit.dev@gmail.com">proovit.dev@gmail.com</a>. En la app, ve a <strong>Ajustes &gt; Contactar soporte</strong> y facilítanos el <em>nombre del grupo</em> y del <em>usuario</em> involucrado. Nuestro equipo de soporte está preparado para actuar con rapidez y diligencia.<br><br>
+
+<strong>3. Intervención ante Contenido de Abuso Sexual Infantil</strong><br>
+Tomamos acciones inmediatas ante cualquier denuncia relacionada con EASI, incluyendo la eliminación del contenido, suspensión o eliminación de cuentas y notificación a las autoridades pertinentes.<br><br>
+
+<strong>4. Cumplimiento de la Legislación</strong><br>
+Proovit cumple con la legislación vigente en España y la Unión Europea, incluyendo el Reglamento General de Protección de Datos (RGPD) y la Ley Orgánica de Protección Integral a la Infancia y la Adolescencia frente a la Violencia (LOPIVI). En caso de identificar material ilegal, se notificará a las autoridades competentes como la AEPD o las Fuerzas y Cuerpos de Seguridad del Estado.<br><br>
+
+<strong>5. Persona de Contacto</strong><br>
+Nuestro equipo de cumplimiento cuenta con personal preparado para gestionar incidencias de seguridad infantil. Para cualquier preocupación, contacta con <a href="mailto:proovit.dev@gmail.com">proovit.dev@gmail.com</a>.<br><br>
+
+<strong>6. Actualización de Políticas</strong><br>
+Estas políticas se revisan periódicamente para garantizar su eficacia. Proovit se compromete a adaptarse a nuevas amenazas y seguir mejorando sus prácticas de protección infantil.`,
+    },
     delete: {
       title: "Cómo eliminar tu cuenta",
       steps: [
         "Abre la app Proovit en tu dispositivo.",
-        "Ve a <strong>Ajustes</strong> &gt; <strong>Cuenta</strong>.",
+        "Ve a <strong>Ajustes</strong> en la parte superior derecha de la pantalla.",
         "Toca <strong>Eliminar cuenta</strong> y sigue las instrucciones.",
       ],
       help: `Si tienes problemas o prefieres, puedes escribirnos a <a href="mailto:proovit.dev@gmail.com">proovit.dev@gmail.com</a> y solicitar la eliminación de tu cuenta.`,
     },
     footer: "&copy; 2025 Proovit",
     footerLinks: {
-      privacy: "Privacidad",
-      terms: "Términos",
+      privacy: "Política de Privacidad",
+      terms: "Términos de Servicio",
+      childsafety: "Política de Seguridad Infantil"
     },
   },
 };
@@ -230,6 +278,7 @@ const footerText = document.getElementById("footer-text");
 const langSwitcher = document.getElementById("lang-switcher");
 const footerPrivacyLink = document.getElementById("footer-privacy-link");
 const footerTermsLink = document.getElementById("footer-terms-link");
+const footerChildsafetyLink = document.getElementById("footer-childsafety-link");
 const footerCopyright = document.getElementById("footer-copyright");
 const deleteBtn = document.getElementById("delete-btn");
 const footerDeleteLink = document.getElementById("footer-delete-link");
@@ -239,6 +288,7 @@ const navLinks = document.querySelectorAll("nav a[data-page]");
 const navHome = document.getElementById("nav-home");
 const navPrivacy = document.getElementById("nav-privacy");
 const navTerms = document.getElementById("nav-terms");
+const navChildsafety = document.getElementById("nav-childsafety");
 const navDelete = document.getElementById("nav-delete");
 
 let currentLang = localStorage.getItem("proovit-lang") || "en";
@@ -247,6 +297,7 @@ let currentLang = localStorage.getItem("proovit-lang") || "en";
 let currentPage = "home";
 if (window.location.pathname.includes("privacy")) currentPage = "privacy";
 else if (window.location.pathname.includes("terms")) currentPage = "terms";
+else if (window.location.pathname.includes("childsafety")) currentPage = "childsafety";
 else if (window.location.pathname.includes("delete-account"))
   currentPage = "delete";
 else if (window.location.hash.replace("#", ""))
@@ -260,10 +311,11 @@ function renderNav() {
       link.textContent = translations[currentLang].nav[page];
       link.classList.toggle("active", page === currentPage);
     });
-  } else if (navHome && navPrivacy && navTerms && navDelete) {
+  } else if (navHome && navPrivacy && navTerms && navChildsafety && navDelete) {
     navHome.textContent = translations[currentLang].nav.home;
     navPrivacy.textContent = translations[currentLang].nav.privacy;
     navTerms.textContent = translations[currentLang].nav.terms;
+    navChildsafety.textContent = translations[currentLang].nav.childsafety;
     navDelete.textContent = translations[currentLang].nav.delete;
     // Set active class
     navHome.classList.toggle("active", currentPage === "home");
@@ -320,6 +372,16 @@ function renderPage(page) {
         )}</div>
       </section>
     `;
+  } else if (page === "childsafety") {
+    html = `
+      <section class="legal-section">
+        <h1>${t.childsafety.title}</h1>
+        <div class="legal-content">${t.childsafety.content.replace(
+          /\n/g,
+          "<br>"
+        )}</div>
+      </section>
+    `;
   } else if (page === "delete") {
     html = `
       <section class="delete-section">
@@ -340,9 +402,10 @@ function setLang(lang) {
   if (langSwitcher) langSwitcher.value = lang;
   renderNav();
   renderPage(currentPage);
-  if (footerPrivacyLink && footerTermsLink && footerDeleteLink) {
+  if (footerPrivacyLink && footerTermsLink && footerChildsafetyLink && footerDeleteLink) {
     footerPrivacyLink.textContent = translations[lang].footerLinks.privacy;
     footerTermsLink.textContent = translations[lang].footerLinks.terms;
+    footerChildsafetyLink.textContent = translations[lang].footerLinks.childsafety;
     footerDeleteLink.textContent = translations[lang].nav.delete;
   }
   if (footerCopyright) {
