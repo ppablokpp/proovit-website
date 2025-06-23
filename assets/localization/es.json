@@ -8,22 +8,27 @@
   },
   "home": {
     "title": "¿Qué es Proovit?",
-    "description": "Proovit es una app social para participar en retos con amigos. Comparte momentos especiales y compite en desafíos creativos. Únete a grupos, sube fotos, vota y gana logros.",
+    "description": "Proovit es la app de retos definitiva. Crea un grupo con tus amigos, participa en retos diarios, sube tus mejores fotos y escala posiciones en el ranking. ¿No tienes suficiente? Crea tus propios retos y compártelos. ¿Estás listo?",
     "features": [
       {
         "icon": "group",
         "title": "Grupos",
-        "desc": "Únete o crea grupos para retar a tus amigos."
-      },
-      {
-        "icon": "camera_alt",
-        "title": "Retos fotográficos",
-        "desc": "Completa retos subiendo fotos y votando."
+        "desc": "Únete o crea grupos para retar y votar fotos con tus amigos."
       },
       {
         "icon": "emoji_events",
-        "title": "Logros",
-        "desc": "Consigue insignias y sigue tu progreso."
+        "title": "Temporadas",
+        "desc": "Compite en temporadas, gana puntos y lidera el ranking."
+      },
+      {
+        "icon": "calendar_today",
+        "title": "Retos",
+        "desc": "Recibe un reto cada día y comparte tu mejor foto."
+      },
+      {
+        "icon": "add_circle",
+        "title": "Personalización",
+        "desc": "Crea tus propios retos e compártelos con tu grupo."
       }
     ],
     "getStarted": "Empezar",

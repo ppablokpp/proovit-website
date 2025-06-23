@@ -118,13 +118,14 @@ main#main-content {
 .features-list {
   display: flex;
   flex-direction: column;
-  gap: var(--space-md);
+  gap: var(--space-xl);
   width: 100%;
   max-width: 1100px;
-  margin: 0 auto;
+  margin: var(--space-xl);
   justify-content: center;
   padding: 0 var(--space-sm);
 }
+
 .feature-tile {
   display: flex;
   flex-direction: column;
@@ -132,44 +133,30 @@ main#main-content {
   background: var(--primary);
   border-radius: var(--radius);
   box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.18), var(--shadow);
-  padding: var(--space-md) var(--space-sm) var(--space-sm);
-  border: 1.5px solid var(--border);
-  min-width: 120px;
-  flex: 1 1 260px;
-  margin-bottom: var(--space-xs);
-  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
-  position: relative;
-  overflow: hidden;
+  padding: var(--space-md);
+  border: 2px solid var(--border);
 }
-.feature-icon {
-  font-size: 2.8rem;
-  color: var(--accent);
-  background: rgba(208, 0, 0, 0.08);
-  border-radius: 50%;
-  padding: 0.7rem;
-  margin-bottom: 1.2rem;
-  box-shadow: 0 2px 8px 0 rgba(208, 0, 0, 0.1);
+
+.feature-title {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  gap: var(--space-xs);
+  width: 100%;
 }
+
+.feature-icon {
+  color: var(--accent);
+}
+
 .feature-tile h3 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: var(--white);
-  text-align: center;
-  letter-spacing: 0.5px;
+  margin: 0;
+  flex: 1;
 }
+
 .feature-tile p {
   margin: 0;
   color: var(--grey4);
-  font-size: 1.08rem;
-  text-align: center;
-  min-height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: var(--space-md);
 }
 
 /* =========================
@@ -301,7 +288,7 @@ footer {
   border: 1.5px solid var(--border);
   justify-content: space-around;
   cursor: pointer;
-  width: 217px;
+  width: 235px;
   transition: background 0.18s, border-color 0.18s;
 }
 .appstore-btn:hover,
@@ -349,7 +336,7 @@ footer {
 }
 
 /* Show QR codes and hide download buttons on desktop */
-@media (min-width: 601px) {
+@media (min-width: 700px) {
   .download-links {
     display: none;
   }
@@ -360,19 +347,20 @@ footer {
     flex-direction: row;
   }
   .topbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: var(--space-xs);
-    padding: 0.5rem 21rem;
-    min-height: 77px;
-    width: 100%;
-    background: var(--primary);
-    box-shadow: var(--shadow);
+    justify-content: space-around;
+  }
+  .features-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-lg);
+    padding: 0 var(--space-md);
+  }
+  .feature-tile {
+    margin-bottom: 0;
   }
 }
 /* Hide QR codes and show download buttons on mobile/tablet */
-@media (max-width: 600px) {
+@media (max-width: 699px) {
   .download-links {
     display: flex;
   }

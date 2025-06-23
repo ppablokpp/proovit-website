@@ -101,6 +101,21 @@ function renderPage(page) {
           </div>
         </div>
       </section>
+      <section class="features-list">
+        ${t.home.features
+          .map(
+            (f) => `
+          <div class="feature-tile">
+          <div class="feature-title">
+            <span class="material-icons feature-icon">${f.icon}</span>
+            <h3>${f.title}</h3>
+            </div>
+            <p>${f.desc}</p>
+          </div>
+        `
+          )
+          .join("")}
+      </section>
     `;
   } else if (page === "privacy") {
     html = `
