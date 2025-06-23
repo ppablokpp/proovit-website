@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "delete": "Eliminar cuenta",
+    "childsafety": "Seguridad infantil"
+  },
+  "home": {
+    "title": "¿Qué es Proovit?",
+    "description": "Proovit es una app social para participar en retos con amigos. Comparte momentos especiales y compite en desafíos creativos. Únete a grupos, sube fotos, vota y gana logros.",
+    "features": [
+      {
+        "icon": "group",
+        "title": "Grupos",
+        "desc": "Únete o crea grupos para retar a tus amigos."
+      },
+      {
+        "icon": "camera_alt",
+        "title": "Retos fotográficos",
+        "desc": "Completa retos subiendo fotos y votando."
+      },
+      {
+        "icon": "emoji_events",
+        "title": "Logros",
+        "desc": "Consigue insignias y sigue tu progreso."
+      }
+    ],
+    "getStarted": "Empezar",
+    "download": "¡Descarga Proovit en la <a href=\"#\">App Store</a> o <a href=\"#\">Google Play</a> y comienza tu primer reto hoy!"
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "content": "Fecha de entrada en vigor: 17 de abril de 2025<br><br>En Proovit, valoramos tu privacidad y estamos comprometidos a proteger tus datos personales. Esta Política de Privacidad explica cómo recopilamos, usamos, almacenamos y compartimos tu información cuando usas nuestra aplicación.<br><br><strong>1. Información que recopilamos</strong><br>Al usar Proovit, podemos recopilar:<br><ul><li>Datos de cuenta: tu nombre y correo electrónico, a través de nuestro proveedor de autenticación Clerk.</li><li>Imágenes y archivos: fotos que subes para participar en retos, almacenadas de forma segura en Cloudinary.</li><li>Información técnica: dispositivo, sistema operativo, actividad en la app y notificaciones push.</li><li>Permisos del dispositivo: cámara y sistema de notificaciones, necesarios para el funcionamiento de la app.</li></ul><strong>2. Cómo usamos tu información</strong><ul><li>Crear y gestionar tu cuenta de usuario.</li><li>Permitir tu participación en retos y verificar tus pruebas mediante fotos.</li><li>Enviar notificaciones relevantes para la experiencia de juego.</li><li>Analizar el uso de la app y mejorar su funcionalidad.</li></ul><strong>3. Servicios de terceros</strong><ul><li>Clerk: autenticación y gestión de usuarios.</li><li>Cloudinary: almacenamiento de imágenes.</li><li>Neon: gestión de base de datos.</li><li>Fly.io: alojamiento del backend.</li></ul>Estos servicios pueden recopilar y procesar datos según sus propias políticas de privacidad.<br><strong>4. Seguridad</strong><br>Adoptamos medidas razonables para proteger tu información. Sin embargo, ningún sistema es completamente seguro.<br><strong>5. Eliminación de datos</strong><br>Puedes solicitar la eliminación de tu cuenta y todos tus datos personales escribiéndonos a: <a href=\"mailto:proovit.dev@gmail.com\">proovit.dev@gmail.com</a><br><strong>6. Privacidad infantil</strong><br>Si eres menor de 13 años, necesitas el consentimiento de tus padres o tutores legales.<br><strong>7. Cambios en esta política</strong><br>Nos reservamos el derecho de modificar esta Política de Privacidad en cualquier momento. Te informaremos de cualquier cambio sustancial a través de la app o por correo electrónico."
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "content": "Fecha de entrada en vigor: 17 de abril de 2025<br><br>Por favor, lee estos Términos de Servicio cuidadosamente antes de usar Proovit. Al acceder o utilizar la app, aceptas cumplir con estos términos. Si no estás de acuerdo, por favor no uses Proovit.<br><br><strong>1. Uso del servicio</strong><br>Proovit es una aplicación que permite a los usuarios participar en retos con amigos, validando sus logros mediante fotos subidas directamente desde sus dispositivos.<br><strong>2. Cuentas de usuario</strong><br>Para acceder a todas las funcionalidades, debes crear una cuenta usando nuestro proveedor Clerk. Eres responsable de mantener la confidencialidad de tus credenciales. Nos reservamos el derecho de suspender cuentas por violaciones de estos términos o comportamiento inapropiado.<br><strong>3. Contenido del usuario</strong><br>Al subir fotos o cualquier contenido a Proovit, aceptas que:<br><ul><li>Eres propietario del contenido o tienes permiso para compartirlo.</li><li>El contenido no es ilegal, ofensivo ni infringe derechos de terceros.</li><li>Nos reservamos el derecho de eliminar cualquier contenido que consideremos inapropiado.</li></ul><strong>4. Uso aceptable</strong><br>No puedes usar Proovit para:<br><ul><li>Realizar actividades ilegales o dañinas.</li><li>Infringir los derechos de otros usuarios.</li><li>Manipular, hackear o dañar la infraestructura de la app.</li></ul><strong>5. Propiedad intelectual</strong><br>Todo el contenido, marca y código fuente de Proovit (excepto el contenido generado por usuarios) es propiedad exclusiva de sus desarrolladores.<br><strong>6. Limitación de responsabilidad</strong><br>Proovit se proporciona \"tal cual\" y no garantiza que el servicio sea ininterrumpido o libre de errores. No somos responsables de daños directos o indirectos derivados del uso de la aplicación.<br><strong>7. Modificaciones</strong><br>Nos reservamos el derecho de actualizar estos Términos en cualquier momento. Te notificaremos si se realizan cambios significativos."
+  },
+  "childsafety": {
+    "title": "Política de Seguridad Infantil",
+    "content": "Fecha de entrada en vigor: 17 de abril de 2025<br><br>Proovit está comprometido a proporcionar un entorno seguro para todos los usuarios, especialmente protegiendo a los menores de cualquier forma de explotación y abuso sexual infantil (CSEA). A continuación, se detallan nuestras políticas de seguridad infantil:<br><br><strong>1. Estándares de seguridad infantil</strong><br>En Proovit, condenamos estrictamente todas las formas de explotación y abuso sexual infantil. Está estrictamente prohibido subir, compartir o promover contenido que implique dicho material.<br><br><strong>2. Canal de contacto para denuncias y sugerencias</strong><br>Si detectas contenido o actividad sospechosa relacionada con la seguridad infantil, puedes contactarnos directamente en <a href=\"mailto:proovit.dev@gmail.com\">proovit.dev@gmail.com</a>. En la app, ve a <strong>Ajustes &gt; Contactar soporte</strong> e indica el <em>nombre del grupo</em> y el <em>nombre de usuario</em> implicados. Nuestro equipo de soporte está listo para actuar de forma rápida y diligente.<br><br><strong>3. Intervención ante contenido de abuso sexual infantil</strong><br>Actuamos de inmediato ante cualquier denuncia relacionada con CSEA, incluyendo la eliminación del contenido, suspensión o eliminación de las cuentas implicadas y notificación a las autoridades competentes.<br><br><strong>4. Cumplimiento legal</strong><br>Proovit cumple con la legislación vigente en España y la Unión Europea, incluyendo el Reglamento General de Protección de Datos (RGPD) y la Ley Orgánica de Protección Integral a la Infancia y la Adolescencia frente a la Violencia (LOPIVI). Si se detecta material ilegal, lo reportaremos a las autoridades correspondientes como la Agencia Española de Protección de Datos (AEPD) o cuerpos de seguridad.<br><br><strong>5. Persona de contacto designada</strong><br>Nuestro equipo de cumplimiento incluye personal capacitado para gestionar incidentes de seguridad infantil. Para cualquier inquietud, contáctanos en <a href=\"mailto:proovit.dev@gmail.com\">proovit.dev@gmail.com</a>.<br><br><strong>6. Actualización de políticas</strong><br>Estas políticas se revisan periódicamente para garantizar su eficacia. Proovit se compromete a adaptarse a nuevas amenazas y mejorar continuamente sus prácticas de protección infantil."
+  },
+  "delete": {
+    "title": "Cómo eliminar tu cuenta",
+    "steps": [
+      "Abre la app de Proovit en tu dispositivo.",
+      "Ve a <strong>Ajustes</strong> en la esquina superior derecha.",
+      "Toca <strong>Eliminar cuenta</strong> y sigue las instrucciones."
+    ],
+    "help": "Si tienes problemas o lo prefieres, puedes escribirnos a <a href=\"mailto:proovit.dev@gmail.com\">proovit.dev@gmail.com</a> y solicitar la eliminación de tu cuenta."
+  },
+  "footer": "&copy; 2025 Proovit",
+  "footerLinks": {
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "childsafety": "Política de Seguridad Infantil"
+  }
+}
