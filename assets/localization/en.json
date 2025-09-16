@@ -6,32 +6,13 @@
     "delete": "Delete Account"
   },
   "home": {
-    "title": "What is Proovit?",
-    "description": "Proovit is the ultimate challenge app. Create a group with your friends, join daily challenges, upload your best photos, and climb the leaderboard. Not enough? Create your own challenges and share them. Are you ready?",
+    "title": "Just Proovit",
     "features": [
-      {
-        "icon": "group",
-        "title": "Groups",
-        "desc": "Join or create groups to challenge your friends and vote on photos."
-      },
-      {
-        "icon": "emoji_events",
-        "title": "Seasons",
-        "desc": "Compete in monthly seasons, earn points, and see who tops the leaderboard."
-      },
-      {
-        "icon": "calendar_today",
-        "title": "Challenges",
-        "desc": "Get a new challenge every day and share your best photo."
-      },
-      {
-        "icon": "add_circle",
-        "title": "Customization",
-        "desc": "Create your own challenges and invite anyone to join the fun."
-      }
+      "Get a daily challenge 🎯",
+      "Compete with your friends 👥",
+      "AI Verified 🤖"
     ],
-    "getStarted": "Get Started",
-    "download": "Download Proovit on the <a href=\"#\">App Store</a> or <a href=\"#\">Google Play</a> and start your first challenge today!"
+    "description": "The first social media app that tells you what to post. Get a notification every day, upload your proovit and climb the leaderboard. Are you ready?"
   },
   "privacy": {
     "title": "Privacy Policy",

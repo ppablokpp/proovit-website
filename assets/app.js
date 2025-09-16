@@ -66,8 +66,9 @@ function renderPage(page) {
   if (page === "home") {
     html = `
       <section class="hero">
-        <h1>${t.home.title}</h1>
-        <p class="hero-desc">${t.home.description}</p>
+        <div class="hero-text">
+          <h1>${t.home.title}</h1>
+          <p class="hero-desc">${t.home.description}</p>
         <div class="download-links">
           <a href="https://apps.apple.com/es/app/proovit/id6744988665" class="appstore-btn" aria-label="Download on the App Store">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
@@ -92,6 +93,19 @@ function renderPage(page) {
             </span>
           </a>
         </div>
+
+          <div class="features-list">
+            ${
+              Array.isArray(t.home.features)
+                ? t.home.features
+                    .map((f) => `<h3 class="feature-item">${f}</h3>`)
+                    .join("")
+                : ""
+            }
+          </div>
+        </div>
+
+
         <div class="qr-codes">
           <div class="qr-item">
             <img src="assets/images/app-store-qr.png" alt="App Store QR Code" width="210" height="210" />
@@ -100,21 +114,6 @@ function renderPage(page) {
             <img src="assets/images/play-store-qr.png" alt="Google Play QR Code" width="210" height="210" />
           </div>
         </div>
-      </section>
-      <section class="features-list">
-        ${t.home.features
-          .map(
-            (f) => `
-          <div class="feature-tile">
-          <div class="feature-title">
-            <span class="material-icons feature-icon">${f.icon}</span>
-            <h3>${f.title}</h3>
-            </div>
-            <p>${f.desc}</p>
-          </div>
-        `
-          )
-          .join("")}
       </section>
     `;
   } else if (page === "privacy") {
