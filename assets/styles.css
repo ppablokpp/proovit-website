@@ -371,4 +371,62 @@ footer {
     font-size: 2.1rem;
     font-weight: 500;
   }
+
+  /* Hide QR codes and show download buttons on mobile/tablet */
+  @media (max-width: 599px) {
+    .download-links {
+      display: flex;
+    }
+
+    .hero {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 1rem;
+    }
+
+    .qr-codes {
+      display: none;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+    }
+
+    .hero-desc {
+      font-size: 1.4rem;
+      color: var(--text);
+    }
+
+    .feature-item {
+      font-size: 1.4rem;
+      font-weight: 500;
+      line-height: 2;
+    }
+
+    .appstore-btn,
+    .playstore-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 1em;
+      padding: 0.7em;
+      border-radius: var(--radius);
+      background: var(--primary);
+      color: var(--text);
+      font: 500 1.4rem var(--font-main);
+      text-decoration: none;
+      box-shadow: var(--shadow);
+      justify-content: space-around;
+      cursor: pointer;
+      width: 280px;
+    }
+
+    .appstore-btn svg,
+    .playstore-btn svg {
+      width: 35px;
+      height: 35px;
+      flex-shrink: 0;
+      display: inline-block;
+    }
+  }
 }
