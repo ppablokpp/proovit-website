@@ -428,5 +428,9 @@ footer {
       flex-shrink: 0;
       display: inline-block;
     }
+
+    .topbar {
+      padding: 2rem 2rem;
+    }
   }
 }
