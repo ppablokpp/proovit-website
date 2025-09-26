@@ -6,13 +6,14 @@
     "delete": "Delete Account"
   },
   "home": {
-    "title": "Just Proovit",
+    "title1": "The social app",
+    "title2": "that thinks for you",
     "features": [
       "Get a daily challenge 🎯",
       "Compete with your friends 👥",
       "AI Verified 🤖"
     ],
-    "description": "The first social media app that tells you what to post. Get a notification every day, upload your proovit and climb the leaderboard. Are you ready?"
+    "description": "Get a notification every day, upload your proovit and climb the leaderboard. Are you ready?"
   },
   "privacy": {
     "title": "Privacy Policy",

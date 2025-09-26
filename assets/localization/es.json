@@ -7,13 +7,14 @@
     "childsafety": "Seguridad infantil"
   },
   "home": {
-    "title": "Just Proovit",
+    "title1": "La red social",
+    "title2": "que piensa por ti",
     "features": [
       "Recibe un reto diario 🎯",
       "Compite con tus amigos 👥",
       "Verificado por IA 🤖"
     ],
-    "description": "La primera red social que te dice qué subir. Recibe una notificación cada día, sube tu proovit y escala en la clasificación. ¿Estás listo?"
+    "description": "Recibe una notificación cada día, sube tu proovit y escala en la clasificación. ¿Estás listo?"
   },
   "privacy": {
     "title": "Política de Privacidad",

@@ -138,11 +138,11 @@ main#main-content {
 .hero-text {
   display: flex;
   flex-direction: column;
-  max-width: 500px;
+  max-width: 560px;
 }
 
 .hero h1 {
-  font-size: 5rem;
+  font-size: 4.2rem;
   font-weight: 700;
   color: var(--text);
 }
@@ -257,8 +257,7 @@ footer {
 .playstore-btn {
   display: inline-flex;
   align-items: center;
-  gap: 1em;
-  padding: 0.7em;
+  padding: 0.28em;
   border-radius: var(--radius);
   background: var(--primary);
   color: var(--text);
@@ -267,7 +266,7 @@ footer {
   box-shadow: var(--shadow);
   justify-content: space-around;
   cursor: pointer;
-  width: 360px;
+  width: 350px;
 }
 
 .appstore-btn:hover,
@@ -277,8 +276,8 @@ footer {
 
 .appstore-btn svg,
 .playstore-btn svg {
-  width: 42px;
-  height: 42px;
+  width: 77px;
+  height: 77px;
   flex-shrink: 0;
   display: inline-block;
 }
@@ -293,9 +292,19 @@ footer {
 
 .appstore-btn .btn-caption,
 .playstore-btn .btn-caption {
-  font-size: 0.78em;
-  color: var(--grey4);
-  letter-spacing: 0.02em;
+  font-size: 0.7em;
+  font-weight: 400;
+}
+
+.appstore-btn .btn-caption {
+  word-spacing: 0.28em;
+  letter-spacing: 0.07em;
+}
+
+.appstore-btn .btn-label,
+.playstore-btn .btn-label {
+  font-size: 1.4em;
+  font-weight: 500;
 }
 
 .qr-codes {
@@ -404,16 +413,19 @@ footer {
       line-height: 2;
     }
 
+    .topbar {
+      padding: 2rem 2rem;
+    }
+
     .appstore-btn,
     .playstore-btn {
       display: inline-flex;
       align-items: center;
-      gap: 1em;
-      padding: 0.7em;
+      padding: 0.224em;
       border-radius: var(--radius);
       background: var(--primary);
       color: var(--text);
-      font: 500 1.4rem var(--font-main);
+      font: 500 2rem var(--font-main);
       text-decoration: none;
       box-shadow: var(--shadow);
       justify-content: space-around;
@@ -421,16 +433,42 @@ footer {
       width: 280px;
     }
 
+    .appstore-btn:hover,
+    .playstore-btn:hover {
+      background: var(--accent);
+    }
+
     .appstore-btn svg,
     .playstore-btn svg {
-      width: 35px;
-      height: 35px;
+      width: 62px;
+      height: 62px;
       flex-shrink: 0;
       display: inline-block;
     }
 
-    .topbar {
-      padding: 2rem 2rem;
+    .appstore-btn .btn-text,
+    .playstore-btn .btn-text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      line-height: 0.88;
+    }
+
+    .appstore-btn .btn-caption,
+    .playstore-btn .btn-caption {
+      font-size: 0.56em;
+      font-weight: 400;
+    }
+
+    .appstore-btn .btn-caption {
+      word-spacing: 0.224em;
+      letter-spacing: 0.056em;
+    }
+
+    .appstore-btn .btn-label,
+    .playstore-btn .btn-label {
+      font-size: 1.12em;
+      font-weight: 500;
     }
   }
 }
