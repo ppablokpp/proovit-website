@@ -138,7 +138,7 @@ main#main-content {
 .hero-text {
   display: flex;
   flex-direction: column;
-  max-width: 560px;
+  max-width: 600px;
 }
 
 .hero h1 {

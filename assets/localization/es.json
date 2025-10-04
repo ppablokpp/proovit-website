@@ -7,14 +7,13 @@
     "childsafety": "Seguridad infantil"
   },
   "home": {
-    "title1": "La red social",
-    "title2": "que piensa por ti",
+    "title": "La red social<br>que piensa por ti",
     "features": [
       "Recibe un reto diario 🎯",
       "Compite con tus amigos 👥",
       "Verificado por IA 🤖"
     ],
-    "description": "Recibe una notificación cada día, sube tu proovit y escala en la clasificación. ¿Estás listo?"
+    "description": "Recibe una notificación cada día, sube tu proovit y escala en la clasificación.<br>¿Estás listo?"
   },
   "privacy": {
     "title": "Política de Privacidad",

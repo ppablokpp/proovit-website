@@ -67,8 +67,7 @@ function renderPage(page) {
     html = `
       <section class="hero">
         <div class="hero-text">
-          <h1>${t.home.title1 ?? ""}</h1>
-          <h1>${t.home.title2 ?? ""}</h1>
+          <h1>${t.home.title ?? ""}</h1>
           <p class="hero-desc">${t.home.description}</p>
         <div class="download-links">
           <a href="https://apps.apple.com/es/app/proovit/id6744988665" class="appstore-btn" aria-label="Download on the App Store">

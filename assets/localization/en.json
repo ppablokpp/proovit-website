@@ -6,14 +6,13 @@
     "delete": "Delete Account"
   },
   "home": {
-    "title1": "The social app",
-    "title2": "that thinks for you",
+    "title": "The social app<br>that thinks for you",
     "features": [
       "Get a daily challenge 🎯",
       "Compete with your friends 👥",
       "AI Verified 🤖"
     ],
-    "description": "Get a notification every day, upload your proovit and climb the leaderboard. Are you ready?"
+    "description": "Get a notification every day, upload your proovit and climb the leaderboard.<br>Are you ready?"
   },
   "privacy": {
     "title": "Privacy Policy",
